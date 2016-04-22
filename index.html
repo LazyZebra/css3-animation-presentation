@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+
+    <title>CSS3 Transitions and Animation Intro</title>
+
+    <!-- Required stylesheet -->
+    <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+    <!-- Extension CSS files go here. Remove or add as needed. -->
+    <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+    <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+    <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+    <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+    <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+
+    <!-- Custom style -->
+    <link rel="stylesheet" media="screen" href="themes/style/custom/style.css">
+
+    <!-- Style theme. More available in /themes/style/ or create your own. -->
+    <link rel="stylesheet" media="screen" href="themes/style/swiss.css">
+
+    <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+    <link rel="stylesheet" media="screen" href="themes/transition/vertical-slide.css">
+
+    <!-- Basic black and white print styles -->
+    <link rel="stylesheet" media="print" href="core/print.css">
+
+    <!-- Required Modernizr file -->
+    <script src="scripts/modernizr.custom.js"></script>
+
+    <!-- Code Pen -->
+    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</head>
+
+<body>
+    <div class="deck-container">
+
+        <!-- Begin slides. Just make elements with a class of slide. -->
+
+        <section class="slide red-slide">
+            <h1>css3 transitions and animation</h1>
+        </section>
+
+        <section class="slide">
+            <h2>why css3 animation</h2>
+            <h1>create animations and interactivity entirely in css markup</h1>
+        </section>
+
+        <section class="slide red-slide">
+            <h2>why css3 animation</h2>
+            <h1>no flash, silverlight or after effects</h1>
+        </section>
+
+        <section class="slide">
+            <h2>why css3 animation</h2>
+            <h1>no dependency on external libraries like jquery</h1>
+        </section>
+
+        <section class="slide red-slide">
+            <h2>why css3 animation</h2>
+            <h1>eye candy</h1>
+        </section>
+
+        <section class="slide red-slide">
+            <h2>why css3 animation</h2>
+            <h1>custom buttons, forms, charts, interactive elements</h1>
+        </section>
+
+        <section class="slide">
+            <h2>custom elements</h2>
+            <blockquote>expandable search textbox</blockquote>
+            <p data-height="500" data-theme-id="light" data-slug-hash="rmqfB" data-default-tab="css,result" data-user="sdaitzman" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/sdaitzman/pen/rmqfB/">Expanding text box/button</a> by Sam Daitzman (<a href="http://codepen.io/sdaitzman">@sdaitzman</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        </section>
+
+        <section class="slide">
+            <h1><a href="http://tympanus.net/Tutorials/AnimatedButtons/index.html" target="_blank">button awesomenss</a></h1>
+        </section>
+
+        <section class="slide">
+            <h2>custom elements</h2>
+            <blockquote>animated dropdowns</blockquote>
+            <p data-height="500" data-theme-id="light" data-slug-hash="pJuyx" data-default-tab="css,result" data-user="toddsynan" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/toddsynan/pen/pJuyx/">Nav Examples</a> by Todd Synan (<a href="http://codepen.io/toddsynan">@toddsynan</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        </section>
+
+        <section class="slide">
+            <h2>transforms and transitions</h2>
+            <h1>so what are transforms and transitions?</h1>
+        </section>
+
+        <section class="slide">
+            <h2>transforms and transitions</h2>
+            <h1>transforms change the appearance, or move the element</h1>
+        </section>
+
+        <section class="slide">
+            <h2>transforms and transitions</h2>
+            <h1>transitions smoothly change the element from one state to another</h1>
+        </section>
+
+        <section class="slide red-slide">
+            <h1>transitions</h1>
+        </section>
+
+        <section class="slide">
+            <h2>transitions</h2>
+            <blockquote>without a transition, an element being transformed would change abruptly from one state to another</blockquote>
+            <p data-height="500" data-theme-id="light" data-slug-hash="raGwPq" data-default-tab="css,result" data-user="rachelcope" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelcope/pen/raGwPq/">With and Without Transition</a> by Rachel Cope (<a href="http://codepen.io/rachelcope">@rachelcope</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        </section>
+
+        <section class="slide">
+            <h2>transitions</h2>
+            <h1>there are 4 transition properties</h1>
+        </section>
+
+        <section class="slide">
+            <h2>transitions</h2>
+            <h1>property | duration | timing | delay</h1>
+        </section>
+
+        <section class="slide">
+            <h2>transitions</h2>
+            <blockquote>property & duration <strong>required</strong></blockquote>
+            <p data-height="500" data-theme-id="light" data-slug-hash="vOqVjg" data-default-tab="css,result" data-user="rachelcope" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelcope/pen/vOqVjg/">Translation Delay</a> by Rachel Cope (<a href="http://codepen.io/rachelcope">@rachelcope</a>) on
+        </section>
+
+        <section class="slide">
+            <h2>transitions</h2>
+            <blockquote>timing <strong>optional</strong></blockquote>
+            <p data-height="500" data-theme-id="light" data-slug-hash="gbxzmo" data-default-tab="css,result" data-user="rachelcope" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelcope/pen/gbxzmo/">Transition-Timing</a> by Rachel Cope (<a href="http://codepen.io/rachelcope">@rachelcope</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        </section>
+
+        <section class="slide">
+            <h2>transitions</h2>
+            <blockquote>delay <strong>optional</strong></blockquote>
+            <p data-height="500" data-theme-id="light" data-slug-hash="vDIbj" data-default-tab="css,result" data-user="rachelcope" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelcope/pen/vDIbj/">Transition Delay Example</a> by Rachel Cope (<a href="http://codepen.io/rachelcope">@rachelcope</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        </section>
+
+        <section class="slide red-slide">
+            <h1>2d transforms</h1>
+        </section>
+
+        <section class="slide">
+            <h2>2d transforms</h2>
+            <h1>rotate | move | skew | scale</h1>
+        </section>
+
+        <section class="slide">
+            <h2>2d transform</h2>
+            <blockquote>scale</blockquote>
+            <p data-height="500" data-theme-id="light" data-slug-hash="gbxxXe" data-default-tab="css,result" data-user="rachelcope" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelcope/pen/gbxxXe/">Transform: Scale</a> by Rachel Cope (<a href="http://codepen.io/rachelcope">@rachelcope</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        </section>
+
+        <section class="slide">
+            <h2>2d transform</h2>
+            <blockquote>rotate</blockquote>
+            <p data-height="500" data-theme-id="light" data-slug-hash="mhkgr" data-default-tab="css,result" data-user="rachelcope" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelcope/pen/mhkgr/">Transform Rotate Example</a> by Rachel Cope (<a href="http://codepen.io/rachelcope">@rachelcope</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        </section>
+
+        <section class="slide">
+            <h2>2d transform</h2>
+            <blockquote>translate</blockquote>
+            <p data-height="500" data-theme-id="light" data-slug-hash="GgvvyQ" data-default-tab="css,result" data-user="rachelcope" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelcope/pen/GgvvyQ/">Transform: Translate</a> by Rachel Cope (<a href="http://codepen.io/rachelcope">@rachelcope</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        </section>
+
+        <section class="slide">
+            <h2>2d transform</h2>
+            <blockquote>skew</blockquote>
+            <p data-height="500" data-theme-id="light" data-slug-hash="azyGpO" data-default-tab="css,result" data-user="rachelcope" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelcope/pen/azyGpO/">Transform: Skew</a> by Rachel Cope (<a href="http://codepen.io/rachelcope">@rachelcope</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        </section>
+
+        <section class="slide">
+            <h2>2d transform</h2>
+            <blockquote>combinations of transform properties <strong>matrix</strong></blockquote>
+            <p data-height="500" data-theme-id="light" data-slug-hash="jELxad" data-default-tab="css,result" data-user="rachelcope" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/rachelcope/pen/jELxad/">Combining Transforms</a> by Rachel Cope (<a href="http://codepen.io/rachelcope">@rachelcope</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        </section>
+
+        <section class="slide">
+            <h1><a href="http://species-in-pieces.com/#" target="_blank">awesome example</a></h1>
+        </section>
+
+        <section class="slide">
+            <h1>the end</h1>
+        </section>
+
+        <!-- End slides. -->
+
+        <!-- Begin extension snippets. Add or remove as needed. -->
+
+        <!-- deck.navigation snippet -->
+        <div aria-role="navigation">
+            <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+            <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+        </div>
+
+        <!-- deck.status snippet -->
+        <p class="deck-status" aria-role="status">
+            <span class="deck-status-current"></span> /
+            <span class="deck-status-total"></span>
+        </p>
+
+        <!-- deck.goto snippet -->
+        <form action="." method="get" class="goto-form">
+            <label for="goto-slide">Go to slide:</label>
+            <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+            <datalist id="goto-datalist"></datalist>
+            <input type="submit" value="Go">
+        </form>
+
+        <!-- End extension snippets. -->
+    </div>
+
+    <!-- Required JS files. -->
+    <script src="scripts/jquery.min.js"></script>
+    <script src="core/deck.core.js"></script>
+
+    <!-- Extension JS files. Add or remove as needed. -->
+    <script src="extensions/menu/deck.menu.js"></script>
+    <script src="extensions/goto/deck.goto.js"></script>
+    <script src="extensions/status/deck.status.js"></script>
+    <script src="extensions/navigation/deck.navigation.js"></script>
+    <script src="extensions/scale/deck.scale.js"></script>
+
+    <!-- Initialize the deck. You can put this in an external file if desired. -->
+    <script>
+        $(function() {
+            $.deck('.slide');
+        });
+
+    </script>
+</body>
+
+</html>
